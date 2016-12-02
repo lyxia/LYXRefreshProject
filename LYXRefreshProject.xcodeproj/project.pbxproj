@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50D5D0961DF1BF4700A86F07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0951DF1BF4700A86F07 /* main.m */; };
+		50D5D0991DF1BF4700A86F07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0981DF1BF4700A86F07 /* AppDelegate.m */; };
+		50D5D09C1DF1BF4700A86F07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D09B1DF1BF4700A86F07 /* ViewController.m */; };
+		50D5D09F1DF1BF4700A86F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D5D09D1DF1BF4700A86F07 /* Main.storyboard */; };
+		50D5D0A11DF1BF4700A86F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D5D0A01DF1BF4700A86F07 /* Assets.xcassets */; };
+		50D5D0A41DF1BF4700A86F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D5D0A21DF1BF4700A86F07 /* LaunchScreen.storyboard */; };
+		50D5D0BA1DF1C02300A86F07 /* TabBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0AD1DF1C02300A86F07 /* TabBarTableViewController.m */; };
+		50D5D0BB1DF1C02300A86F07 /* CuzTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0AF1DF1C02300A86F07 /* CuzTableViewController.m */; };
+		50D5D0BC1DF1C02300A86F07 /* RefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0B11DF1C02300A86F07 /* RefreshComponent.m */; };
+		50D5D0BD1DF1C02300A86F07 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0B31DF1C02300A86F07 /* UIScrollView+Refresh.m */; };
+		50D5D0BE1DF1C02300A86F07 /* RefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0B51DF1C02300A86F07 /* RefreshFooter.m */; };
+		50D5D0BF1DF1C02300A86F07 /* RefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0B71DF1C02300A86F07 /* RefreshHeader.m */; };
+		50D5D0C01DF1C02300A86F07 /* RefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D5D0B91DF1C02300A86F07 /* RefreshConfig.m */; };
+		FBCD04019C7117744AC6F5F2 /* Pods_LYXRefreshProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1DC204F3F1273A1A3101CA /* Pods_LYXRefreshProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50D5D0911DF1BF4700A86F07 /* LYXRefreshProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYXRefreshProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D5D0951DF1BF4700A86F07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50D5D0971DF1BF4700A86F07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50D5D0981DF1BF4700A86F07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50D5D09A1DF1BF4700A86F07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50D5D09B1DF1BF4700A86F07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50D5D09E1DF1BF4700A86F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50D5D0A01DF1BF4700A86F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50D5D0A31DF1BF4700A86F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50D5D0A51DF1BF4700A86F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D5D0AC1DF1C02300A86F07 /* TabBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarTableViewController.h; sourceTree = "<group>"; };
+		50D5D0AD1DF1C02300A86F07 /* TabBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarTableViewController.m; sourceTree = "<group>"; };
+		50D5D0AE1DF1C02300A86F07 /* CuzTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuzTableViewController.h; sourceTree = "<group>"; };
+		50D5D0AF1DF1C02300A86F07 /* CuzTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CuzTableViewController.m; sourceTree = "<group>"; };
+		50D5D0B01DF1C02300A86F07 /* RefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshComponent.h; sourceTree = "<group>"; };
+		50D5D0B11DF1C02300A86F07 /* RefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshComponent.m; sourceTree = "<group>"; };
+		50D5D0B21DF1C02300A86F07 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		50D5D0B31DF1C02300A86F07 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		50D5D0B41DF1C02300A86F07 /* RefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshFooter.h; sourceTree = "<group>"; };
+		50D5D0B51DF1C02300A86F07 /* RefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshFooter.m; sourceTree = "<group>"; };
+		50D5D0B61DF1C02300A86F07 /* RefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshHeader.h; sourceTree = "<group>"; };
+		50D5D0B71DF1C02300A86F07 /* RefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshHeader.m; sourceTree = "<group>"; };
+		50D5D0B81DF1C02300A86F07 /* RefreshConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshConfig.h; sourceTree = "<group>"; };
+		50D5D0B91DF1C02300A86F07 /* RefreshConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshConfig.m; sourceTree = "<group>"; };
+		90BEA57787E364890B1C0412 /* Pods-LYXRefreshProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYXRefreshProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYXRefreshProject/Pods-LYXRefreshProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CC1DC204F3F1273A1A3101CA /* Pods_LYXRefreshProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYXRefreshProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB16A57D2643FFDEE48054FC /* Pods-LYXRefreshProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYXRefreshProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYXRefreshProject/Pods-LYXRefreshProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D5D08E1DF1BF4700A86F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCD04019C7117744AC6F5F2 /* Pods_LYXRefreshProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293B419A66E65203CB557C5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90BEA57787E364890B1C0412 /* Pods-LYXRefreshProject.debug.xcconfig */,
+				DB16A57D2643FFDEE48054FC /* Pods-LYXRefreshProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50D5D0881DF1BF4700A86F07 = {
+			isa = PBXGroup;
+			children = (
+				50D5D0931DF1BF4700A86F07 /* LYXRefreshProject */,
+				50D5D0921DF1BF4700A86F07 /* Products */,
+				293B419A66E65203CB557C5F /* Pods */,
+				F4EA5EFA3B89944A7FBD6448 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50D5D0921DF1BF4700A86F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D5D0911DF1BF4700A86F07 /* LYXRefreshProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D5D0931DF1BF4700A86F07 /* LYXRefreshProject */ = {
+			isa = PBXGroup;
+			children = (
+				50D5D0AC1DF1C02300A86F07 /* TabBarTableViewController.h */,
+				50D5D0AD1DF1C02300A86F07 /* TabBarTableViewController.m */,
+				50D5D0AE1DF1C02300A86F07 /* CuzTableViewController.h */,
+				50D5D0AF1DF1C02300A86F07 /* CuzTableViewController.m */,
+				50D5D0B01DF1C02300A86F07 /* RefreshComponent.h */,
+				50D5D0B11DF1C02300A86F07 /* RefreshComponent.m */,
+				50D5D0B21DF1C02300A86F07 /* UIScrollView+Refresh.h */,
+				50D5D0B31DF1C02300A86F07 /* UIScrollView+Refresh.m */,
+				50D5D0B41DF1C02300A86F07 /* RefreshFooter.h */,
+				50D5D0B51DF1C02300A86F07 /* RefreshFooter.m */,
+				50D5D0B61DF1C02300A86F07 /* RefreshHeader.h */,
+				50D5D0B71DF1C02300A86F07 /* RefreshHeader.m */,
+				50D5D0B81DF1C02300A86F07 /* RefreshConfig.h */,
+				50D5D0B91DF1C02300A86F07 /* RefreshConfig.m */,
+				50D5D09A1DF1BF4700A86F07 /* ViewController.h */,
+				50D5D09B1DF1BF4700A86F07 /* ViewController.m */,
+				50D5D0941DF1BF4700A86F07 /* Supporting Files */,
+			);
+			path = LYXRefreshProject;
+			sourceTree = "<group>";
+		};
+		50D5D0941DF1BF4700A86F07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D5D0971DF1BF4700A86F07 /* AppDelegate.h */,
+				50D5D0981DF1BF4700A86F07 /* AppDelegate.m */,
+				50D5D09D1DF1BF4700A86F07 /* Main.storyboard */,
+				50D5D0A01DF1BF4700A86F07 /* Assets.xcassets */,
+				50D5D0A21DF1BF4700A86F07 /* LaunchScreen.storyboard */,
+				50D5D0A51DF1BF4700A86F07 /* Info.plist */,
+				50D5D0951DF1BF4700A86F07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4EA5EFA3B89944A7FBD6448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1DC204F3F1273A1A3101CA /* Pods_LYXRefreshProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D5D0901DF1BF4700A86F07 /* LYXRefreshProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D5D0A81DF1BF4700A86F07 /* Build configuration list for PBXNativeTarget "LYXRefreshProject" */;
+			buildPhases = (
+				32C3AC9D6D5DD78DB4756E03 /* [CP] Check Pods Manifest.lock */,
+				50D5D08D1DF1BF4700A86F07 /* Sources */,
+				50D5D08E1DF1BF4700A86F07 /* Frameworks */,
+				50D5D08F1DF1BF4700A86F07 /* Resources */,
+				31BB98732C1FBDB79CCB8C68 /* [CP] Embed Pods Frameworks */,
+				8457280157B0C58569632D4B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYXRefreshProject;
+			productName = LYXRefreshProject;
+			productReference = 50D5D0911DF1BF4700A86F07 /* LYXRefreshProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D5D0891DF1BF4700A86F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lyxia;
+				TargetAttributes = {
+					50D5D0901DF1BF4700A86F07 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 297S5J6Z2U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50D5D08C1DF1BF4700A86F07 /* Build configuration list for PBXProject "LYXRefreshProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D5D0881DF1BF4700A86F07;
+			productRefGroup = 50D5D0921DF1BF4700A86F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D5D0901DF1BF4700A86F07 /* LYXRefreshProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D5D08F1DF1BF4700A86F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D5D0A41DF1BF4700A86F07 /* LaunchScreen.storyboard in Resources */,
+				50D5D0A11DF1BF4700A86F07 /* Assets.xcassets in Resources */,
+				50D5D09F1DF1BF4700A86F07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31BB98732C1FBDB79CCB8C68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYXRefreshProject/Pods-LYXRefreshProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32C3AC9D6D5DD78DB4756E03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8457280157B0C58569632D4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYXRefreshProject/Pods-LYXRefreshProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D5D08D1DF1BF4700A86F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D5D0BE1DF1C02300A86F07 /* RefreshFooter.m in Sources */,
+				50D5D09C1DF1BF4700A86F07 /* ViewController.m in Sources */,
+				50D5D0BC1DF1C02300A86F07 /* RefreshComponent.m in Sources */,
+				50D5D0BF1DF1C02300A86F07 /* RefreshHeader.m in Sources */,
+				50D5D0BA1DF1C02300A86F07 /* TabBarTableViewController.m in Sources */,
+				50D5D0991DF1BF4700A86F07 /* AppDelegate.m in Sources */,
+				50D5D0BB1DF1C02300A86F07 /* CuzTableViewController.m in Sources */,
+				50D5D0C01DF1C02300A86F07 /* RefreshConfig.m in Sources */,
+				50D5D0BD1DF1C02300A86F07 /* UIScrollView+Refresh.m in Sources */,
+				50D5D0961DF1BF4700A86F07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50D5D09D1DF1BF4700A86F07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D5D09E1DF1BF4700A86F07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50D5D0A21DF1BF4700A86F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D5D0A31DF1BF4700A86F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D5D0A61DF1BF4700A86F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50D5D0A71DF1BF4700A86F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D5D0A91DF1BF4700A86F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BEA57787E364890B1C0412 /* Pods-LYXRefreshProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 297S5J6Z2U;
+				INFOPLIST_FILE = LYXRefreshProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlx.lyx.LYXRefreshProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50D5D0AA1DF1BF4700A86F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB16A57D2643FFDEE48054FC /* Pods-LYXRefreshProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 297S5J6Z2U;
+				INFOPLIST_FILE = LYXRefreshProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlx.lyx.LYXRefreshProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D5D08C1DF1BF4700A86F07 /* Build configuration list for PBXProject "LYXRefreshProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D5D0A61DF1BF4700A86F07 /* Debug */,
+				50D5D0A71DF1BF4700A86F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D5D0A81DF1BF4700A86F07 /* Build configuration list for PBXNativeTarget "LYXRefreshProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D5D0A91DF1BF4700A86F07 /* Debug */,
+				50D5D0AA1DF1BF4700A86F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D5D0891DF1BF4700A86F07 /* Project object */;
+}

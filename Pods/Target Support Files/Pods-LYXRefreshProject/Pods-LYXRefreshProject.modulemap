@@ -1,0 +1,6 @@
+framework module Pods_LYXRefreshProject {
+  umbrella header "Pods-LYXRefreshProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
